@@ -1,0 +1,312 @@
+/* ID */
+
+#nav-img {
+  height: 8rem;
+  width: auto;
+}
+
+#landing-img {
+  display: inline-block;
+}
+
+#landing {
+  margin-bottom: 10rem;
+  padding: 5em 0;
+  /* background-image: url(./template-img.jpg); */
+  background-color: #50d890;
+}
+
+#buttons {
+  margin: 2.5rem 0;
+}
+
+#logo {
+  width: 70px;
+  height: auto;
+}
+
+#flow {
+  margin-top: 2.5rem;
+}
+
+#flow .row {
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+
+#icon {
+  font-size: 2rem;
+  color: greenyellow;
+}
+
+#landing-text {
+  text-align: none;
+}
+
+/* Flow Section */
+
+#flow {
+  text-align: center;
+  margin: 3rem;
+  background-color: white;
+}
+
+#landing .container {
+  width: 70%;
+}
+
+/* Section Buttons */
+
+#doc-patient-btn {
+  text-align: center;
+}
+
+/* Classes */
+
+.btn {
+  margin: 0 1rem;
+}
+
+div #buttons .btn-primary {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  letter-spacing: .1rem;
+  box-shadow: 0rem .9rem 1.4rem -.5rem hsl(180, 100%, 10%);
+}
+
+.btn-outline-dark {
+  border: none;
+  letter-spacing: .2rem;
+  font-size: .8rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.fa-arrow-down {
+  padding-left: .5rem;
+}
+
+.navbar {
+  color: rgba(133, 235, 50, 0.979);
+  padding-top: 3rem;
+  background-color: #50d890;
+}
+
+.landing-text {
+  display: inline-block;
+  margin-top: 7rem;
+}
+
+.landing-text h1 {
+  width: 40rem;
+  font-size: 4rem;
+}
+
+.landing-text p {
+  letter-spacing: 1px;
+  margin: 2rem 3rem 0 0rem;
+}
+
+.firstAid {
+  position: relative;
+  top: 12rem;
+  left: 10rem;
+}
+
+/* GET STARTED BUTTON */
+
+.signup-btn {
+  background-color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  font-weight: 800;
+  color: hsl(192, 100%, 9%);
+  border: 0.0625rem solid none;
+  border-radius: 1rem;
+  padding: .5rem 1.7rem .5rem 1.7rem;
+  box-shadow: 0rem .9rem 1.4rem -.5rem hsl(180, 100%, 10%);
+}
+
+.signup-btn:link {
+  text-decoration: none;
+}
+
+.signup-btn:visited {
+  text-decoration: none;
+}
+
+.signup-btn:focus {
+  text-decoration: none;
+}
+
+.signup-btn:hover {
+  text-decoration: none;
+}
+
+.signup-btn:active {
+  text-decoration: none;
+}
+
+/*********************/
+
+.flowchart {
+  width: 24rem;
+  height: 15rem;
+  border-radius: 7rem;
+  box-shadow: 0 .2rem .4rem -.1rem hsl(229, 6%, 66%), 0 -.2rem .4rem -.1rem hsl(229, 6%, 66%);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.flowchart-text {
+  display: flex;
+  padding-top: 5rem;
+}
+
+.image-container {
+  width: 300px;
+  height: auto;
+}
+
+.flowchart-image {
+  width: 300px;
+  height: auto;
+  padding-top: 1.5rem;
+}
+
+/* Elements */
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Open Sans';
+}
+
+/***************** Patient/Doctor Buttons *****************/
+
+#button-patient-doctor .btn-primary {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  letter-spacing: .1rem;
+  box-shadow: 0rem .9rem 1.4rem -.5rem hsl(180, 100%, 10%)
+}
+
+#button-patient-doctor {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.doc-img {
+  width: 200px;
+  height: auto;
+}
+
+/* ******************Forms*************** */
+
+/* Patient */
+
+#form-info {
+  margin: 1.5em;
+}
+
+#register-btn {
+  text-align: right;
+  margin: 0 1.5rem 1.5rem 0;
+}
+
+div #register-btn .btn-primary {
+  /* background-color: #50d890; */
+  /* border: none; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  letter-spacing: .1rem;
+  box-shadow: 0rem .5rem .5rem -.5rem hsl(180, 100%, 10%);
+}
+
+.modal-css-p {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .8);
+
+}
+.modal-css-d {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .8);
+
+}
+
+.modal-hidden {
+  visibility: hidden;
+}
+
+
+div .fa-times {
+  color: blue;
+  float: right;
+  margin: .35rem .35rem 0 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* #patient-btn {
+  visibility: hidden;
+} */
+
+#patient-form {
+  background-color: white;
+  width: 50rem;
+  /* margin: 10rem; */
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  font-weight: 600;
+  border: 0.0625rem solid none;
+  border-radius: 1rem;
+  padding: .5rem 1.7rem .5rem 1.7rem;
+  box-shadow: 0 .5rem 1rem -.3rem hsl(229, 6%, 66%), 0 -.5rem 0 -.1rem hsl(148, 64%, 58%);
+  /* text-align: center; */
+}
+
+/* DOCTOR */
+
+#doctor-form {
+  background-color: white;
+  width: 50rem;
+  margin: 10rem;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  font-weight: 600;
+  border: 0.0625rem solid none;
+  border-radius: 1rem;
+  padding: .5rem 1.7rem .5rem 1.7rem;
+  box-shadow: 0 .5rem 1rem -.3rem hsl(229, 6%, 66%), 0 -.5rem 0 -.1rem hsl(148, 64%, 58%)
+}
+
+#patient-form h1 {
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+#doctor-form h1 {
+  text-align: center;
+  margin: 2.5rem 0;
+}
