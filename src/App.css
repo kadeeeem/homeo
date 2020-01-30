@@ -20,7 +20,7 @@
   margin: 2.5rem 0;
 }
 
-#logo {
+.navbar-brand #logo {
   width: 70px;
   height: auto;
 }
@@ -239,8 +239,8 @@ div #register-btn .btn-primary {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, .8);
-
 }
+
 .modal-css-d {
   position: fixed;
   top: 0;
@@ -250,13 +250,11 @@ div #register-btn .btn-primary {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, .8);
-
 }
 
 .modal-hidden {
   visibility: hidden;
 }
-
 
 div .fa-times {
   color: blue;
@@ -290,7 +288,7 @@ div .fa-times {
 #doctor-form {
   background-color: white;
   width: 50rem;
-  margin: 10rem;
+  /* margin: 10rem; */
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: .8rem;
@@ -309,4 +307,38 @@ div .fa-times {
 #doctor-form h1 {
   text-align: center;
   margin: 2.5rem 0;
+}
+
+/* *******Footer******* */
+
+#footer {
+  background-color: #50d890;
+  vertical-align: center;
+  text-align: center;
+  padding: 2rem 0;
+  color: white;
+}
+
+.footer-logo {
+  position: absolute;
+  margin-left: 3rem;
+}
+
+.footer-logo h2 {
+  display: inline;
+  padding-left: 1.5rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#footer #logo {
+  width: 90px;
+}
+
+.social-icons {
+  margin: 1.5rem .5rem;
+}
+
+.footer-content {
+  margin-left: auto;
+  margin-right: auto;
 }

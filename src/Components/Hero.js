@@ -10,19 +10,24 @@ function Hero() {
                         <h1>Bridging the Gap Between Patients and Doctors</h1>
                         <p className="lead">Making affordable preventative healthcare accessible to all.</p>
                         <div id="buttons">
+
                             <button type="button" className="btn btn-primary">REGISTER</button>
-                        <button type="button" className="btn btn-outline-dark">LEARN MORE<i
+
+                            <a href="how-it-works">
+                            <button type="button" className="btn btn-outline-dark">LEARN MORE<i
                                 className="fas fa-arrow-down"></i></button>
+                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-6 ml-auto">
-                        <img className="firstAid" src={firstAid} alt=""/>
-                </div>
+                        <img className="firstAid" src={firstAid} alt="" />
                     </div>
                 </div>
-    </section>
+            </div>
+        </section>
 
-            )
-        }
-        
-        export default Hero;
+    )
+}
+
+export default Hero;
