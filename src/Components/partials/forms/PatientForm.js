@@ -1,4 +1,5 @@
 import React from 'react'
+import UserForm from './BaseForm'
 
 function PatientForm() {
     return (
@@ -7,32 +8,17 @@ function PatientForm() {
                 <h1>REGISTER</h1>
                 <div id="form-info">
                     <div className="row">
-                        <div className="form-group col-lg-6">
-                            <label for="first-name">First Name</label>
-                            <input type="text" name="nameFirst" id="nameFirst" className="form-control" required />
-                        </div>
-                        <div className="form-group col-lg-6">
-                            <label for="last-name">Last Name</label>
-                            <input type="text" name="nameLast" id="nameLast" className="form-control" required />
-                        </div>
+                        <UserForm size="lg-6" for="first-name" name="nameFirst" label="First Name" inputRequired="true"/>
+                        <UserForm size="lg-6" for="last-name" name="nameLast" label="Last Name" inputRequired="true"/>
                     </div>
                     <div className="row">
-                        <div className="form-group col-lg-2">
-                            <label for="age-grp">Age Group</label>
-                            <input type="text" name="age-grp" id="age-grp" className="form-control" required />
-                        </div>
+                        <UserForm size="lg-2" for="age-grp" name="age-grp" label="Age Group" inputRequired="true"/>
                     </div>
                     <div className="row">
-                        <div className="form-group col-lg-4">
-                            <label for="insurance">Insurance Provider. If none, type N/A</label>
-                            <input type="text" name="insurance" id="insurance" className="form-control" required />
-                        </div>
+                        <UserForm size="lg-4" for="insurance" name="insurance" label="Insurance Provider. If none, type N/A" inputRequired="true"/>
                     </div>
                     <div className="row">
-                        <div className="form-group col-lg-4">
-                            <label for="email">Email Address</label>
-                            <input type="text" name="email" id="email" className="form-control" />
-                        </div>
+                        <UserForm size="lg-4" for="email" name="email" label="Email Address" inputRequired="false"/>
                     </div>
                 </div>
                 <div>

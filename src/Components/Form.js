@@ -5,14 +5,11 @@ import PatientForm from './partials/forms/PatientForm'
 function Form() {
     return (
 
-        // Patient Form
-
         <div>
-            <DoctorForm />
-
-            <PatientForm />
-
             {/* Doc Form */}
+            <DoctorForm />
+            {/* Patient Form */}
+            <PatientForm />
             
         </div>
     )
