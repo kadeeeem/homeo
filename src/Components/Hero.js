@@ -13,7 +13,7 @@ function Hero() {
 
                             <button type="button" className="btn btn-primary">REGISTER</button>
 
-                            <a href="how-it-works">
+                            <a href="#footer">
                             <button type="button" className="btn btn-outline-dark">LEARN MORE<i
                                 className="fas fa-arrow-down"></i></button>
                             </a>

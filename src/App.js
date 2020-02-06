@@ -5,6 +5,7 @@ import Hero from './Components/Hero';
 import Button from './Components/Button';
 import Form from './Components/Form';
 import Footer from './Components/Footer';
+import Email from './Components/Email';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Hero />
         <Button />
         <Form />
+        <Email />
         <Footer />
       </div>
     )
