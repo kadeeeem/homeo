@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Button from './Components/Button';
-import Form from './Components/Form';
+// import Form from './Components/Form';
 import Footer from './Components/Footer';
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
         <Navbar />
         <Hero />
         <Button />
-        <Form />
+        {/* <Form /> */}
         <Footer />
       </div>
     )

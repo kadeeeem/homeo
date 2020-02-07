@@ -5,10 +5,10 @@ function Navbar() {
     return (
         <nav className='navbar navbar-expand-lg'>
             <div className='container'>
-                <a href='#' class='navbar-brand'>
+                <a href='/' class='navbar-brand'>
                     <img id='logo' src={logo} alt=''/>
                 </a>
-                <a href='#' className='signup-btn'>GET STARTED</a>
+                <a href='/' className='signup-btn'>GET STARTED</a>
             </div>
         </nav>
             )
