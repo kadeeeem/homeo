@@ -1,0 +1,17 @@
+{
+    "DEV": {
+        "username": "",
+        "password": "",
+        "host": "",
+        "port": "",
+        "schema": ""
+    },
+    "PROD": {
+        "username": "",
+        "password": "",
+        "host": "",
+        "port": "",
+        "schema": ""
+    }
+
+}
