@@ -22,7 +22,7 @@ const ModalDisplay = (props) => {
     return (
         <div>
             <Button color="primary" onClick={toggle}>{buttonLabel}</Button>
-            <Modal isOpen={modal} toggle={toggle}>
+            <Modal isOpen={modal} toggle={toggle} size={"lg"}>
                 {/* <ModalHeader toggle={toggle}>{title}</ModalHeader>     */}
                     {childrenWithClose}
             </Modal> 

@@ -270,7 +270,7 @@ div .fa-times {
 
 #patient-form {
   background-color: white;
-  width: 50rem;
+  width: 100%;
   /* margin: 10rem; */
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
@@ -287,7 +287,7 @@ div .fa-times {
 
 #doctor-form {
   background-color: white;
-  width: 50rem;
+  width: 100%;
   /* margin: 10rem; */
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
